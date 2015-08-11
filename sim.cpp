@@ -1,4 +1,4 @@
-#include "Vc1.h"
+#include "VC1.h"
 #include "verilated.h"
 #include "verilated_vcd_c.h"
 #include <fstream>
