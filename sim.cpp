@@ -33,7 +33,7 @@ int main(int argc, char ** argv) {
         Verilated::traceEverOn(true);
         VerilatedVcdC* tfp = new VerilatedVcdC;
         top->trace(tfp, 99);
-        tfp->open("c1.vcd");
+        tfp->open("C1.vcd");
         top->clk = 1;
         top->rst = 1;
         top->a = 3;
